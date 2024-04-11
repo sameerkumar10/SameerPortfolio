@@ -13,6 +13,7 @@ import {
   creator,
   web,
   javascript,
+  typescript,
   html,
   css,
   reactjs,
@@ -76,6 +77,10 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "typeScript",
+    icon: typescript,
   },
 
   {
