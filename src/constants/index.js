@@ -252,7 +252,7 @@ const projects = [
   {
     name: "ECOMMERCE WEB",
     description:
-      "Our project is a dynamic TypeScript-driven full-stack web application. Leveraging Node.js, MongoDB, and Firebase Authentication for the backend, we've seamlessly integrated Stripe for secure payment processing. Redux Toolkit ensures efficient state management while SASS stylizes the frontend. Additionally, we've developed a dedicated admin dashboard for real-time updates and streamlined management ",
+      "This project is a dynamic TypeScript-driven full-stack web application. Leveraging Node.js, MongoDB, and Firebase Authentication for the backend, I've seamlessly integrated Stripe for secure payment processing. Redux Toolkit ensures efficient state management while SASS stylizes the frontend. Additionally, I've developed a dedicated admin dashboard for real-time updates and streamlined management ",
       tags:[
       {
         name: "typescript",
