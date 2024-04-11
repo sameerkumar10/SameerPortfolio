@@ -18,17 +18,24 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Sameer</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user
-            interfaces and web applications.
-            
+            I develop user interfaces and web applications.
+            <span className="md:hidden">
+              I'm a dedicated UI and web application developer with experience
+              in creating engaging digital experiences.I
+              aim to design visually appealing and responsive layouts that work
+              well on different devices. I'm always learning about new
+              technologies to stay updated in the fast-paced digital world.
+            </span>
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      <div className="hidden md:block absolute top-0 left-0 w-full h-full">
+        <ComputersCanvas />
+      </div>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-1 ">
             <motion.div
               animate={{
                 y: [0, 24, 0],

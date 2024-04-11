@@ -59,7 +59,7 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               {nav.title === "Download My Resume" ? (
-                <a href={nav.link}  download target="_blank" rel="noopener noreferrer" type="application/pdf">
+                <a href={nav.link} target="_blank" rel="noopener noreferrer">
                   {nav.title}
                 </a>
               ) : (
@@ -90,8 +90,12 @@ const Navbar = () => {
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
+                    if (nav.title === "Download My Resume") {
+                      window.open(nav.link, "_blank");
+                    } else {
+                      setToggle(!toggle);
+                      setActive(nav.title);
+                    }
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>

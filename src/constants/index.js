@@ -5,7 +5,8 @@ import expjsImage from "../assets/tech/expjs.png";
 import bootImage from "../assets/tech/bootstrap.png";
 import img1Image from "../assets/img1.png";
 import img2Image from "../assets/img2.png";
-import img3Image from "../assets/company/tic-tac-toe.jpg"
+import img3Image from "../assets/company/tic-tac-toe.jpg";
+import img4Image from "../assets/company/EcomWeb.jpg";
 import {
   mobile,
   backend,
@@ -26,6 +27,7 @@ import {
 
 export const navLinks = [
   {
+    id:"download my resume",
     title: "Download My Resume",
     link: "https://drive.google.com/drive/u/4/folders/1L-G5zhHQUBi7T4cBnOppJGHOZqSfTdH2",
   },
@@ -247,6 +249,31 @@ const projects = [
     image: img3Image,
     source_code_link: "https://tictactoesam10.netlify.app/",
   },
+  {
+    name: "ECOMMERCE WEB",
+    description:
+      "Our project is a dynamic TypeScript-driven full-stack web application. Leveraging Node.js, MongoDB, and Firebase Authentication for the backend, we've seamlessly integrated Stripe for secure payment processing. Redux Toolkit ensures efficient state management while SASS stylizes the frontend. Additionally, we've developed a dedicated admin dashboard for real-time updates and streamlined management ",
+      tags:[
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PaymentIntegration",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: img4Image,
+    source_code_link: "https://ecommerce-platform-frontend.vercel.app/",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
