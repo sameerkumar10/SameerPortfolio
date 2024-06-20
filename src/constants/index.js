@@ -7,6 +7,9 @@ import img1Image from "../assets/img1.png";
 import img2Image from "../assets/img2.png";
 import img3Image from "../assets/company/tic-tac-toe.jpg";
 import img4Image from "../assets/company/EcomWeb.jpg";
+import img5Image from "../assets/company/bank.jpg";
+import img6Image from "../assets/company/survey.jpg";
+
 import {
   mobile,
   backend,
@@ -22,15 +25,14 @@ import {
   nodejs,
   mongodb,
   git,
- 
   threejs,
 } from "../assets";
 
 export const navLinks = [
   {
-    id:"download my resume",
+    id: "download my resume",
     title: "Download My Resume",
-    link: "https://drive.google.com/drive/u/4/folders/1L-G5zhHQUBi7T4cBnOppJGHOZqSfTdH2",
+    link: "https://drive.google.com/drive/folders/1SwcZI5O8QckHquUQ8RmhETV-tbfNPWIx?usp=sharing",
   },
   {
     id: "about",
@@ -132,7 +134,6 @@ const experiences = [
       "It enables me to collaborate with various new kinds of peoples. ",
       "It helps in my self-communication skills and buildup activity.",
       "Promoted Graphite Tryst events, initiatives, and programs across campus through various channels.",
-      
     ],
   },
   {
@@ -159,6 +160,16 @@ const experiences = [
       "Proficient in front-end technologies including HTML, CSS, JavaScript, and modern JavaScript frameworks like React.js.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Familiarity with version control systems like Git for code management and collaboration.",
+    ],
+  },
+  {
+    title: "SDE Intern",
+    company_name: "MyInternet Bridging the IT Gap",
+    icon: code2Image,
+    iconBg: "#383E56",
+    date: "March 2023 - May 2023",
+    points: [
+      "In my projects, I've honed the essential skill of ensuring timely project delivery. Notably, I developed a banking demo with a subscription model and seamless Razorpay payment integration via middleware APIs. Additionally, I created a surveyors' website where admins can customize and allocate surveys, and surveyors can manage and distribute these surveys to users. This project utilized Nodemailer, MongoDB, React.js, Express, jsPDF, and other technologies. Through these experiences, I've gained proficiency in various tech stacks and learned the importance of real-time project management and delivery",
     ],
   },
 ];
@@ -258,7 +269,7 @@ const projects = [
     name: "ECOMMERCE WEB",
     description:
       "This project is a dynamic TypeScript-driven full-stack web application. Leveraging Node.js, MongoDB, and Firebase Authentication for the backend, I've seamlessly integrated Stripe for secure payment processing. Redux Toolkit ensures efficient state management while SASS stylizes the frontend. Additionally, I've developed a dedicated admin dashboard for real-time updates and streamlined management ",
-      tags:[
+    tags: [
       {
         name: "typescript",
         color: "blue-text-gradient",
@@ -278,7 +289,59 @@ const projects = [
     ],
     image: img4Image,
     source_code_link: "https://ecommerce-platform-frontend.vercel.app/",
-  }
+  },
+  {
+    name: "PortalGo",
+    description:
+      "In the Portalgo project, I developed a comprehensive banking demo featuring a subscription model with seamless payment integration using Razorpay. This project was built using a robust tech stack, including Node.js for the server-side logic, JavaScript for dynamic functionalities, MongoDB for efficient data storage, and React.js for a responsive front-end interface. Additionally, I incorporated various middleware APIs to enhance functionality and ensure smooth interactions between different components.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RazorPayPaymentIntegration",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: img5Image,
+    source_code_link: "https://github.com/sameerkumar10/PortalGo",
+  },
+  {
+    name: "SurveysPortal",
+    description:
+      "I developed a surveyors' website leveraging a diverse tech stack including React.js, MongoDB, middleware APIs, Express.js, TailwindCSS, and more. This project features two dashboards: one for admins and one for surveyors. The admin dashboard allows customization and management of surveys, allocation of surveys to surveyors, and sending updates via email using Nodemailer. The surveyors' dashboard enables surveyors to complete surveys, send updated surveys to users through email, and perform other dynamic updates",
+    tags: [
+      {
+        name: "javascript",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      
+    
+      {
+        name: "Expressjs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: img6Image,
+    source_code_link: "https://github.com/sameerkumar10/SurveyorsPortals",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
