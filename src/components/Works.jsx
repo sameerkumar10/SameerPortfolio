@@ -18,26 +18,28 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="w-full sm:w-[360px] p-2 border border-red-500"
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[230px] border border-blue-500">
           <img
             src={image}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
-
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className=" w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer bg-white"
             >
               <img
                 src={linkImage}
@@ -47,12 +49,10 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
-
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
-
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p
@@ -67,13 +67,12 @@ const ProjectCard = ({
     </motion.div>
   );
 };
-
 const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} text-secondary`}>My work</p>
+        <h2 className={`${styles.sectionHeadText} text-white`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -81,17 +80,17 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through
+          Following projects showcase my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
-          and manage projects effectively.For more projects you can check out my
+          and manage projects effectively. For more projects, you can check out my
           GitHub link (mentioned in the Contact section) and many projects are
           in progress...
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-wrap gap-5 ">
+      <div className="mt-10 flex flex-wrap gap-5 justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

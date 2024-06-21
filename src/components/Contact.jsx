@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -19,9 +18,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
-
+    const { name, value } = e.target;
     setForm({
       ...form,
       [name]: value,
@@ -66,29 +63,54 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-       <p className={`${styles.sectionSubText}`}>
-       <span className="mr-2">Get in touch</span> 
-  <a href="https://github.com/sameerkumar10" target="_blank" rel="noopener noreferrer">
-    <SocialIcon className="mr-2 transition-transform transform hover:scale-110" network="github" />
-  </a>
-  <a href="https://www.instagram.com/_sameer_kumar_10_/" target="_blank" rel="noopener noreferrer">
-    <SocialIcon className="mx-2 transition-transform transform hover:scale-110" network="instagram" />
-  </a>
-  <a href="https://www.linkedin.com/in/sameer-kumar-sam10/" target="_blank" rel="noopener noreferrer">
-    <SocialIcon className="ml-2 transition-transform transform hover:scale-110" network="linkedin" />
-  </a>
-  <a href="https://linktr.ee/sameer_kumar_10" target="_blank" rel="noopener noreferrer">
-    <SocialIcon className="ml-2 transition-transform transform hover:scale-110" network="linktree" />
-  </a>
-</p>
-
+        <p className={`${styles.sectionSubText}`}>
+          <span className="mr-2">Get in touch</span>
+          <a
+            href="https://github.com/sameerkumar10"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SocialIcon
+              className="mr-2 transition-transform transform hover:scale-110"
+              network="github"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/_sameer_kumar_10_/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SocialIcon
+              className="mx-2 transition-transform transform hover:scale-110"
+              network="instagram"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sameer-kumar-sam10/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SocialIcon
+              className="ml-2 transition-transform transform hover:scale-110"
+              network="linkedin"
+            />
+          </a>
+          <a
+            href="https://linktr.ee/sameer_kumar_10"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SocialIcon
+              className="ml-2 transition-transform transform hover:scale-110"
+              network="linktree"
+            />
+          </a>
+        </p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
@@ -105,6 +127,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your good name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -116,6 +139,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your web address?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -127,6 +151,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
 
