@@ -20,7 +20,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="w-full sm:w-[360px] p-2 border border-red-500"
+      className="w-full sm:w-[360px] p-2"
     >
       <Tilt
         options={{
@@ -30,7 +30,7 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl"
       >
-        <div className="relative w-full h-[230px] border border-blue-500">
+        <div className="relative w-full h-[230px]">
           <img
             src={image}
             alt="project_image"
@@ -67,6 +67,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+
 const Works = () => {
   return (
     <>
