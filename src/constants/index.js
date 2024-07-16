@@ -141,7 +141,7 @@ const experiences = [
     company_name: "salegully retail private limited",
     icon: code1Image,
     iconBg: "#E6DEDD",
-    date: "May 2022 - Aug 2022",
+    date: "Sep 2023 - Nov 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborated with senior developers to design, develop, and maintain responsive web applications.",
@@ -154,7 +154,7 @@ const experiences = [
     company_name: "RungtaTech",
     icon: code2Image,
     iconBg: "#383E56",
-    date: "March 2023 - May 2023",
+    date: "March 2023 - June 2023",
     points: [
       "Communicated effectively with clients to provide project updates, address concerns, and ensure client satisfaction throughout the development process.",
       "Proficient in front-end technologies including HTML, CSS, JavaScript, and modern JavaScript frameworks like React.js.",
@@ -167,7 +167,7 @@ const experiences = [
     company_name: "MyInternet Bridging the IT Gap",
     icon: code2Image,
     iconBg: "#383E56",
-    date: "March 2023 - May 2023",
+    date: "March 2024 - July 2024",
     points: [
       "In my projects, I've honed the essential skill of ensuring timely project delivery. Notably, I developed a banking demo with a subscription model and seamless Razorpay payment integration via middleware APIs. Additionally, I created a surveyors' website where admins can customize and allocate surveys, and surveyors can manage and distribute these surveys to users. This project utilized Nodemailer, MongoDB, React.js, Express, jsPDF, and other technologies. Through these experiences, I've gained proficiency in various tech stacks and learned the importance of real-time project management and delivery",
     ],
