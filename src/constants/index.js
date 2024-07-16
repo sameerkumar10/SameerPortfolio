@@ -290,6 +290,31 @@ const projects = [
     image: img4Image,
     source_code_link: "https://ecommerce-platform-frontend.vercel.app/",
   },
+  {
+    name: "PortalGo",
+    description:
+      "In the Portalgo project, I developed a comprehensive banking demo featuring a subscription model with seamless payment integration using Razorpay. This project was built using a robust tech stack, including Node.js for the server-side logic, JavaScript for dynamic functionalities, MongoDB for efficient data storage, and React.js for a responsive front-end interface. Additionally, I incorporated various middleware APIs to enhance functionality and ensure smooth interactions between different components.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RazorPayPaymentIntegration",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: img5Image,
+    source_code_link: "https://github.com/sameerkumar10/PortalGo",
+  },
   
 ];
 
