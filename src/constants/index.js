@@ -322,7 +322,7 @@ const projects = [
     tags: [
       {
         name: "javascript",
-        color: "red-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "MongoDB",
