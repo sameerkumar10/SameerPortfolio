@@ -244,27 +244,7 @@ const projects = [
     image: img2Image,
     source_code_link: "https://userdata-8085e.web.app/",
   },
-  {
-    name: "Tic-Tac-Toe",
-    description:
-      " Experience the classic game of Tic Tac Toe in a user-friendly interface crafted with pure JavaScript, HTML, and CSS. Enjoy seamless gameplay as you challenge friends or test your skills against the computer. With intuitive design and smooth interactions, this game provides hours of entertainment for players of all ages ",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: img3Image,
-    source_code_link: "https://tictactoesam10.netlify.app/",
-  },
+ 
   {
     name: "ECOMMERCE WEB",
     description:
@@ -290,31 +270,7 @@ const projects = [
     image: img4Image,
     source_code_link: "https://ecommerce-platform-frontend.vercel.app/",
   },
-  {
-    name: "PortalGo",
-    description:
-      "In the Portalgo project, I developed a comprehensive banking demo featuring a subscription model with seamless payment integration using Razorpay. This project was built using a robust tech stack, including Node.js for the server-side logic, JavaScript for dynamic functionalities, MongoDB for efficient data storage, and React.js for a responsive front-end interface. Additionally, I incorporated various middleware APIs to enhance functionality and ensure smooth interactions between different components.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "RazorPayPaymentIntegration",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: img5Image,
-    source_code_link: "https://github.com/sameerkumar10/PortalGo",
-  },
+ 
   {
     name: "SurveysPortal",
     description:
