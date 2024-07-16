@@ -293,7 +293,7 @@ const projects = [
   {
     name: "PortalGo",
     description:
-      "In the Portalgo project, I developed a comprehensive banking demo featuring a subscription model with seamless payment integration using Razorpay. This project was built using a robust tech stack, including Node.js for the server-side logic, JavaScript for dynamic functionalities, MongoDB for efficient data storage, and React.js for a responsive front-end interface. Additionally, I incorporated various middleware APIs to enhance functionality and ensure smooth interactions between different components.",
+      "In the Portalgo project, I developed a comprehensive banking demo with a subscription model and seamless payment integration using Razorpay. Built with a robust tech stack including Node.js, JavaScript, MongoDB, and React.js, this project features efficient server-side logic, dynamic functionalities, and a responsive front-end. Middleware APIs were incorporated to enhance functionality and ensure smooth interactions between components.",
     tags: [
       {
         name: "javascript",
@@ -318,7 +318,7 @@ const projects = [
   {
     name: "SurveysPortal",
     description:
-      "I developed a surveyors' website leveraging a diverse tech stack including React.js, MongoDB, middleware APIs, Express.js, TailwindCSS, and more. This project features two dashboards: one for admins and one for surveyors. The admin dashboard allows customization and management of surveys, allocation of surveys to surveyors, and sending updates via email using Nodemailer. The surveyors' dashboard enables surveyors to complete surveys, send updated surveys to users through email, and perform other dynamic updates",
+      "I developed a surveyors' website using React.js, MongoDB, Express.js, TailwindCSS, and more. The project features two dashboards: one for admins and one for surveyors. The admin dashboard allows survey customization, management, allocation to surveyors, and sending updates via email with Nodemailer. The surveyors' dashboard enables survey completion, emailing updated surveys to users, and other dynamic updates.",
     tags: [
       {
         name: "javascript",
