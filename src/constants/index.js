@@ -315,7 +315,33 @@ const projects = [
     image: img5Image,
     source_code_link: "https://github.com/sameerkumar10/PortalGo",
   },
-  
+  {
+    name: "SurveysPortal",
+    description:
+      "I developed a surveyors' website leveraging a diverse tech stack including React.js, MongoDB, middleware APIs, Express.js, TailwindCSS, and more. This project features two dashboards: one for admins and one for surveyors. The admin dashboard allows customization and management of surveys, allocation of surveys to surveyors, and sending updates via email using Nodemailer. The surveyors' dashboard enables surveyors to complete surveys, send updated surveys to users through email, and perform other dynamic updates",
+    tags: [
+      {
+        name: "javascript",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      
+    
+      {
+        name: "Expressjs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: img6Image,
+    source_code_link: "https://github.com/sameerkumar10/SurveyorsPortals",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
