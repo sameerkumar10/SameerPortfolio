@@ -20,7 +20,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-     className="w-full sm:w-[300px] md:w-[360px] h-auto"
+     className="w-full sm:w-[300px] p-2"
     >
       <Tilt
         options={{
@@ -50,8 +50,8 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5">
-        <h3 className="text-white font-bold text-[18px] sm:text-[20px] md:text-[24px]">{name}</h3>
-        <p className="mt-2 text-secondary text-[14px] sm:text-[16px] mtext-[16px]">{description}</p>
+        <h3 className="text-white font-bold text-[20px] sm:text-[24px]">{name}</h3>
+        <p className="mt-2 text-secondary text-[12px] sm:text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
          {tags.map((tag) => (
@@ -91,7 +91,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-wrap justify-center gap-5 sm:justify-start">
+      <div className="mt-10 flex flex-wrap gap-5 justify-start sm:justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
