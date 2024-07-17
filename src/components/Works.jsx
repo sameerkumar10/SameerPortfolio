@@ -20,7 +20,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-     className="w-full sm:w-[300px] md:w-[360px] h-auto"
+     className="w-full sm:w-[300px] p-2"
     >
       <Tilt
         options={{
@@ -72,7 +72,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-secondary`}>My work For more projects viste my Github</p>
+        <p className={`${styles.sectionSubText} text-secondary`}>My works - For more projects visit my Github</p>
         <h2 className={`${styles.sectionHeadText} text-white`}>Projects.</h2>
       </motion.div>
 
