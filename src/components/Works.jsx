@@ -19,7 +19,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div
-      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+         variants={fadeIn("up", "spring", index * 0.5, 0.75)}
       className="w-full flex flex-col justify-center items-center sm:justify-start sm:items-start md:justify-center md:items-center h-auto"
     >
       <Tilt
@@ -50,19 +50,19 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[18px] sm:text-[20px] md:text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px] sm:text-[16px] md:text-[16px]">{description}</p>
+        <h3 className="text-white font-bold text-[18px] sm:text-[20px] md:text-[24px]">{name}</h3>
+        <p className="mt-2 text-secondary text-[14px] sm:text-[16px] mtext-[16px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[12px] sm:text-[14px] md:text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div>
+         {tags.map((tag) => (
+           <p
+             key={`${name}-${tag.name}`}
+             className={`text-[12px] sm:text-[14px] md:text-[14px] ${tag.color}`}
+           >
+             #{tag.name}
+           </p>
+         ))}
+       </div>
       </Tilt>
     </motion.div>
   );
