@@ -291,12 +291,12 @@ const projects = [
     source_code_link: "https://ecommerce-platform-frontend.vercel.app/",
   },
   {
-    name: "ECOMMERCE WEB",
+    name: "PortalGo",
     description:
-      "This project is a dynamic TypeScript-driven full-stack web application. Leveraging Node.js, MongoDB, and Firebase Authentication for the backend, I've seamlessly integrated Stripe for secure payment processing. Redux Toolkit ensures efficient state management while SASS stylizes the frontend. Additionally, I've developed a dedicated admin dashboard for real-time updates and streamlined management ",
+      "In the Portalgo project, I developed a comprehensive banking demo with a subscription model and seamless payment integration using Razorpay. Built with a robust tech stack including Node.js, JavaScript, MongoDB, and React.js, this project features efficient server-side logic, dynamic functionalities, and a responsive front-end. Middleware APIs were incorporated to enhance functionality and ensure smooth interactions between components.",
     tags: [
       {
-        name: "typescript",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
@@ -304,18 +304,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "PaymentIntegration",
+        name: "RazorPayPaymentIntegration",
         color: "blue-text-gradient",
       },
       {
-        name: "sass",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: img4Image,
-    source_code_link: "https://ecommerce-platform-frontend.vercel.app/",
-  },
-  
+    image: img5Image,
+    source_code_link: "https://github.com/sameerkumar10/PortalGo",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
