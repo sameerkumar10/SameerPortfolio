@@ -79,7 +79,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3text-secondary text-[14px] sm:text-[16px] md:text-[17px] max-w-3xl leading-[26px] sm:leading-[30px] md:leading-[32px]"
+           className="mt-3 text-secondary text-[14px] sm:text-[16px] md:text-[17px] max-w-3xl leading-26px] sm:leading-[30px] md:leading-[32px]"
         >
           Following projects showcase my skills and experience through
           real-world examples of my work. Each project is briefly described with
@@ -91,7 +91,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-wrap gap-5 justify-start sm:justify-center">
+      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 mgrid-cols-3 gap-5">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
