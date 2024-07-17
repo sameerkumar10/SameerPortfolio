@@ -20,7 +20,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="w-full sm:w-[360px] p-2"
+     className="w-full sm:w-[300px] p-2"
     >
       <Tilt
         options={{
@@ -30,7 +30,7 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full aspect-video">
           <img
             src={image}
             alt="project_image"
@@ -50,14 +50,14 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5">
-        <h3 className="text-white font-bold text-[24px]">{name}</h3>
-        <p className="mt-2 text-secondary text-[14px]">{description}</p>
+        <h3 className="text-white font-bold text-[20px] sm:text-[24px]">{name}</h3>
+        <p className="mt-2 text-secondary text-[12px] sm:text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
          {tags.map((tag) => (
           <p
           key={`${name}-${tag.name}`}
-          className={`text-[14px] ${tag.color}`}
+          className={`text-[12px] sm:text-[14px] md:text-[14px] ${tag.color} font-medium`}
         >
           #{tag.name}
         </p>
@@ -78,8 +78,8 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-3text-secondary text-[14px] sm:text-[16px] md:text-[17px] max-w-3xl leading-[26px] sm:leading-[30px] md:leading-[32px]"
         >
           Following projects showcase my skills and experience through
           real-world examples of my work. Each project is briefly described with
@@ -91,7 +91,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-wrap gap-5 justify-center">
+      <div className="mt-10 flex flex-wrap gap-5 justify-center sm:justify-start">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
