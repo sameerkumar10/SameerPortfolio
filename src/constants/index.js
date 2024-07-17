@@ -290,6 +290,31 @@ const projects = [
     image: img4Image,
     source_code_link: "https://ecommerce-platform-frontend.vercel.app/",
   },
+  {
+    name: "ECOMMERCE WEB",
+    description:
+      "This project is a dynamic TypeScript-driven full-stack web application. Leveraging Node.js, MongoDB, and Firebase Authentication for the backend, I've seamlessly integrated Stripe for secure payment processing. Redux Toolkit ensures efficient state management while SASS stylizes the frontend. Additionally, I've developed a dedicated admin dashboard for real-time updates and streamlined management ",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PaymentIntegration",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: img4Image,
+    source_code_link: "https://ecommerce-platform-frontend.vercel.app/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
