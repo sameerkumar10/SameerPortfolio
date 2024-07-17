@@ -19,8 +19,8 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div
-         variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="w-full flex flex-col justify-center items-center sm:justify-start sm:items-start md:justify-center md:items-center h-auto"
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+     className="w-full sm:w-[300px] md:w-[360px] h-auto"
     >
       <Tilt
         options={{
