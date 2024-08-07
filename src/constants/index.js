@@ -288,7 +288,7 @@ const projects = [
       },
     ],
     image: img4Image,
-    source_code_link: "https://ecommerce-platform-frontend.vercel.app/",
+    source_code_link: "https://ecommerce-platform-frontend-sam.vercel.app/",
   },
   {
     name: "PortalGo",
