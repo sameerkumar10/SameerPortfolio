@@ -20,7 +20,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-     className="w-full sm:w-[300px] p-2"
+      className="w-full sm:w-[300px] p-2"
     >
       <Tilt
         options={{
@@ -50,19 +50,23 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5">
-        <h3 className="text-white font-bold text-[20px] sm:text-[24px]">{name}</h3>
-        <p className="mt-2 text-secondary text-[12px] sm:text-[14px]">{description}</p>
+          <h3 className="text-white font-bold text-[20px] sm:text-[24px]">
+            {name}
+          </h3>
+          <p className="mt-2 text-secondary text-[12px] sm:text-[14px]">
+            {description}
+          </p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
-         {tags.map((tag) => (
-           <p
-             key={`${name}-${tag.name}`}
-             className={`text-[12px] sm:text-[14px] md:text-[14px] ${tag.color}`}
-           >
-             #{tag.name}
-           </p>
-         ))}
-       </div>
+          {tags.map((tag) => (
+            <p
+              key={`${name}-${tag.name}`}
+              className={`text-[12px] sm:text-[14px] md:text-[14px] ${tag.color}`}
+            >
+              #{tag.name}
+            </p>
+          ))}
+        </div>
       </Tilt>
     </motion.div>
   );
@@ -72,7 +76,9 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-secondary`}>My works - For more projects visit my Github</p>
+        <p className={`${styles.sectionSubText} text-secondary`}>
+          My works - For more projects visit my Github
+        </p>
         <h2 className={`${styles.sectionHeadText} text-white`}>Projects.</h2>
       </motion.div>
 
@@ -85,13 +91,13 @@ const Works = () => {
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
-          and manage projects effectively. For more projects, you can check out my
-          GitHub link (mentioned in the Contact section) and many projects are
-          in progress...
+          and manage projects effectively. For more projects, you can check out
+          my GitHub link (mentioned in the Contact section) and many projects
+          are in progress...
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-wrap gap-5 justify-start sm:justify-center">
+      <div className="mt-10 flex flex-wrap gap-5 justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

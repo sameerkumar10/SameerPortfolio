@@ -129,7 +129,7 @@ const experiences = [
     company_name: "Tryst IIT Delhi (Graphite)",
     icon: trystImage,
     iconBg: "#383E56",
-    date: "May 2022 - Aug 2022",
+    date: "Feb 2022 - May 2022",
     points: [
       "It enables me to collaborate with various new kinds of peoples. ",
       "It helps in my self-communication skills and buildup activity.",
@@ -167,7 +167,7 @@ const experiences = [
     company_name: "MyInternet Bridging the IT Gap",
     icon: code2Image,
     iconBg: "#383E56",
-    date: "March 2024 - July 2024",
+    date: "April 2024 - October 2024",
     points: [
       "In my projects, I've honed the essential skill of ensuring timely project delivery. Notably, I developed a banking demo with a subscription model and seamless Razorpay payment integration via middleware APIs. Additionally, I created a surveyors' website where admins can customize and allocate surveys, and surveyors can manage and distribute these surveys to users. This project utilized Nodemailer, MongoDB, React.js, Express, jsPDF, and other technologies. Through these experiences, I've gained proficiency in various tech stacks and learned the importance of real-time project management and delivery",
     ],
@@ -221,7 +221,7 @@ const projects = [
       },
     ],
     image: img1Image,
-    source_code_link: "https://forkify-sam-10.netlify.app/",
+    source_code_link: "https://mealrecipe10.netlify.app/",
   },
   {
     name: "React Tourism",
@@ -289,6 +289,28 @@ const projects = [
     ],
     image: img4Image,
     source_code_link: "https://ecommerce-platform-frontend-sam.vercel.app/",
+  },
+  {
+    name: "Chat Application",
+    description:
+      "I developed a dynamic real-time chat application with features like group creation, friend requests, and more, using React, Redux Toolkit, Socket.IO, Express, and MongoDB. It offers a sleek user experience with MUI, Axios, and Framer Motion, while bcrypt and JSON Web Tokens ensure secure authentication. Real-time communication and media management are powered by Socket.IO, Multer, and Cloudinary. Note: Browser Third Party cookie permissions are required for optimal performance. ",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+     
+      {
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: img5Image,
+    source_code_link: "https://chatapp-frontend-rouge.vercel.app/",
   },
   {
     name: "PortalGo",
