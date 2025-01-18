@@ -293,7 +293,7 @@ const projects = [
   {
     name: "Chat Application",
     description:
-      "I developed a dynamic real-time chat application with features like group creation, friend requests, and more, using React, Redux Toolkit, Socket.IO, Express, and MongoDB. It offers a sleek user experience with MUI, Axios, and Framer Motion, while bcrypt and JSON Web Tokens ensure secure authentication. Real-time communication and media management are powered by Socket.IO, Multer, and Cloudinary. Note: Browser Third Party cookie permissions are required for optimal performance. ",
+      "I developed a dynamic real-time chat application with features like group creation, friend requests, and more, using React, Redux Toolkit, Socket.IO, Express, and MongoDB. It offers a sleek user experience with MUI, Axios, and Framer Motion, while bcrypt and JSON Web Tokens ensure secure authentication. Real-time communication and media management are powered by Socket.IO, Multer, and Cloudinary. Note: Browser Third Party cookie permissions are required for optimal performance,And Most Important I also Created An AdminDashboard Where I Can Check All The Status Of Users And Messages In RealTime Dashboard .",
     tags: [
       {
         name: "reactjs",
