@@ -179,7 +179,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Feb 2025 - Present",
     points: [
-      "In my projects, I've honed the essential skill of ensuring timely project delivery. Notably, I developed a banking demo with a subscription model and seamless Razorpay payment integration via middleware APIs. Additionally, I created a surveyors' website where admins can customize and allocate surveys, and surveyors can manage and distribute these surveys to users. This project utilized Nodemailer, MongoDB, React.js, Express, jsPDF, and other technologies. Through these experiences, I've gained proficiency in various tech stacks and learned the importance of real-time project management and delivery",
+      "Contributed to two POC’s projects:Livespace: Assisted in prototyping and validating front-end features using React.js, HTML,XML, and CSS.and Reliance Nippon: Worked on building interactive UI components and refining layout implementations.•Played a key role in the main production project (Asian Paints - Decor Interior ), focusing on front-end development with Reactjs, and Backend with Java Maven. collaborating with teams to deliver responsive, scalable interfaces.•Took on full-stack responsibilities by integrating back-end and Frontend services using Javascript ,Slight Attributesin XML and Java with Maven, ensuring seamless data flow and application functionality .•Actively participated in version control (Git), team collaboration, and ongoing/upcoming initiatives, continuously enhancing technical and project management skills",
     ],
   },
 ];
@@ -313,7 +313,7 @@ const projects = [
         name: "Nodejs",
         color: "green-text-gradient",
       },
-     
+
       {
         name: "MUI",
         color: "pink-text-gradient",
@@ -347,7 +347,6 @@ const projects = [
     image: img5Image,
     source_code_link: "https://github.com/sameerkumar10/PortalGo",
   },
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
