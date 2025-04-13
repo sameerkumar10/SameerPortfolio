@@ -165,7 +165,7 @@ const experiences = [
   {
     title: "SDE Intern",
     company_name: "MyInternet Bridging the IT Gap",
-    icon: code2Image,
+    icon: code1Image,
     iconBg: "#383E56",
     date: "April 2024 - October 2024",
     points: [
