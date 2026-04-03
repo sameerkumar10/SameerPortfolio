@@ -173,15 +173,15 @@ const experiences = [
     ],
   },
   {
-    title: "Associate Software Developer",
+    title: "Software Engineer",
     company_name: "Hashout Technologies",
     icon: code2Image,
     iconBg: "#383E56",
     date: "Feb 2025 - Present",
     points: [
     "Contributed to two POC’s projects:– Livespace: Assisted in prototyping and validating front-end features using React.js, HTML,XML, and CSS. –Reliance Nippon: Worked on building interactive UI components and refining layout implementations.",
-    "Played a key role in the main production project (Asian Paints - Decor Interior ), focusing on front-end development with Reactjs, and Backend with Java Maven. collaborating with teams to deliver responsive, scalable interfaces.",
-    " Took on full-stack responsibilities by integrating back-end and Frontend services using Javascript ,Slight Attributes in XML and Java with Maven, ensuring seamless data flow and application functionality.",
+    "Played a key role in the main production project (Asian Paints, Cloud.com All phase of this projects release), focusing on front-end development with Reactjs, and Backend with Java Maven. collaborating with teams to deliver responsive, scalable interfaces.",
+    " Took on full-stack responsibilities by integrating back-end and Frontend services using Javascript, Nextjs, React, TypeScript ,Slight Attributes in XML and Java with Maven, ensuring seamless data flow and application functionality.",
     " Actively participated in version control (Git), team collaboration, and ongoing/upcoming initiatives, continuously enhancing technical and project management skills."
     ],
   },
